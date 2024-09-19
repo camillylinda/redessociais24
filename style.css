@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root{
     --cor-principal: #d4838f;
     --cor-secundária:#d6abb1;
     --cor-texto:#312736;
     --cor-de-fundo:#c4ffeb;
-    
+    --font: "Playfair Display", serif;;
 
+}
+body{
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    font-family: var(--font);
 }
